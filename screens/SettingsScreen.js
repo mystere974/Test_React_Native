@@ -4,10 +4,10 @@ import { View, Text, Button, StyleSheet } from 'react-native'
 const SettingScreen = ({navigation}) => {
     return (
         <View style={styles.container}>
-            <Text>Setting</Text>
+            <Text>Settings</Text>
             <Button
-                title="Click Here"
-                onPress={() => alert('Button Clicked')}
+                title="Go to Home"
+                onPress={() => navigation.navigate('Home')}
                 />
         </View>
     )
